@@ -1,6 +1,6 @@
 const { Query } = require("mongoose");
 const Event = require("../models/Event");
-const User = require("../models/user");
+const User = require("../models/User");
 const jwt = require("jsonwebtoken");
 const fs = require("fs");
 const path = require("path");
